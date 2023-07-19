@@ -5,7 +5,7 @@
 * [Disk - distance 2D in Shadertoy by IQ](https://www.shadertoy.com/view/3ltSW2) 
 * [2D distance functions by Inigo Quilez]( https://iquilezles.org/articles/distfunctions2d/)
 * [explanation : Shader Tutorial | Intro to Signed Distance Fields on YouTube by Suboptimal Engineer](https://www.youtube.com/watch?v=pEdlZ9W2Xs0) 
- 
+* [wikibooks](https://en.wikibooks.org/wiki/Fractals/Mathematics/Vector_field#SDF)
 
 
 
@@ -41,7 +41,7 @@ Discrete gradient = Level Set Method ( LSM)
 ![](./png/circle_sdf_24bit_1000.png "description") 
 
 
-![](./png/circle_sdf_24bit_white_1000.png"description") 
+![](./png/circle_sdf_24bit_white_1000.png "description") 
 
 # source code 
 * [d.c](./src/d.c) - c code = one file program
@@ -61,9 +61,13 @@ Dependencies
 * gcc
 
 
+# see also
+* []()
 
 
 # Git
+
+  git clone git@github.com:adammaj1/sdf.git
 
 
 Subdirectory
