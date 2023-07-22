@@ -154,6 +154,7 @@ unsigned char iColorOfExterior = 225;
 
 
 // rgb colors 		r   , g,    b	in [0,1] range
+// one can change it here
 double exterior24[3] = {0.9 , 0.58, 0.25};
 double interior24[3] = {0.65, 0.85, 1.0}; // vec3(0.65,0.85,1.0);
  
@@ -588,16 +589,16 @@ int  Compute24BitColorForSignedDistance2Circle(const complex double z, unsigned 
 	// vec3 col = (d>0.0) ? vec3(0.9,0.6,0.25) : vec3(0.65,0.85,1.0);
 	if (sdf > 0.0) // exterior / interior
 		{	// exterior
-			dRGB[0] = 0.9;
-			dRGB[1] = 0.58;
-			dRGB[0] = 0.25;
+			dRGB[0] = exterior24[0];
+			dRGB[1] = exterior24[1];
+			dRGB[0] = exterior24[2];
 		
 		}
 		else {
-			// interior
-			dRGB[0] = 0.65;
-			dRGB[1] = 0.85;
-			dRGB[0] = 1.0;
+			// interior, read from const array
+			dRGB[0] = interior24[0];
+			dRGB[1] = interior24[1];
+			dRGB[0] = interior24[2];
 		
 		}
 		
