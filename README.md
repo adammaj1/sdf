@@ -44,9 +44,9 @@ Discrete gradient = Level Set Method ( LSM)
 ![](./png/circle_sdf_24bit_white_1000.png "description") 
 
 # source code 
-* [d.c](./src/d.c) - c code = one file program
-* [d.sh](./src/d.sh)- bash file
-* [Makefile](./src/Makefile) - Makefile
+* [d.c](./src/circle/d.c) - c code = one file program
+* [d.sh](./src/circle/d.sh)- bash file
+* [Makefile](./src/circle/Makefile) - Makefile
 
 
 To run the program
