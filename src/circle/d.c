@@ -151,6 +151,13 @@ unsigned char iColorOfBasin1 = 255;
 unsigned char iColorOfInterior = 150;
 unsigned char iColorOfExterior = 225;
 
+
+
+// rgb colors 		r   , g,    b	in [0,1] range
+double exterior24[3] = {0.9 , 0.58, 0.25};
+double interior24[3] = {0.65, 0.85, 1.0}; // vec3(0.65,0.85,1.0);
+ 
+
 unsigned char iColorOfBoundary = 0;
 unsigned char iColorOfUnknown = 5;
 
