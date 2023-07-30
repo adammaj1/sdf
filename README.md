@@ -4,6 +4,7 @@
 * [Signed_distance_function or field in wikipedia](https://en.wikipedia.org/wiki/Signed_distance_function)
 * [Disk - distance 2D in Shadertoy by IQ](https://www.shadertoy.com/view/3ltSW2) 
 * [2D distance functions by Inigo Quilez]( https://iquilezles.org/articles/distfunctions2d/)
+* [2D distance and gradient functions - 2019](https://iquilezles.org/articles/distgradfunctions2d/)
 * [explanation : Shader Tutorial | Intro to Signed Distance Fields on YouTube by Suboptimal Engineer](https://www.youtube.com/watch?v=pEdlZ9W2Xs0) 
 * [wikibooks](https://en.wikibooks.org/wiki/Fractals/Mathematics/Vector_field#SDF)
 
@@ -193,3 +194,8 @@ to overwrite
 then link the images:
 
    ![](./png/n.png "description") 
+   
+   
+Local repo
+
+ ~/Dokumenty/c/sdf/circle
